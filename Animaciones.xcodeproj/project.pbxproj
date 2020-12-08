@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1623CEC5257815EF002466F8 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1623CEC4257815EF002466F8 /* ProgressView.swift */; };
+		1623CEC925781EC8002466F8 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1623CEC825781EC8002466F8 /* ProgressBarView.swift */; };
 		164669FE2576CE92005CDAE0 /* AnimacionesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164669FD2576CE92005CDAE0 /* AnimacionesApp.swift */; };
 		16466A002576CE92005CDAE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164669FF2576CE92005CDAE0 /* ContentView.swift */; };
 		16466A022576CE92005CDAE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16466A012576CE92005CDAE0 /* Assets.xcassets */; };
 		16466A052576CE92005CDAE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16466A042576CE92005CDAE0 /* Preview Assets.xcassets */; };
+		166B76B025797BC300910FE8 /* DotLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B76AF25797BC300910FE8 /* DotLoadingView.swift */; };
+		16EFC524257EF7A500079D59 /* MorphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16EFC523257EF7A500079D59 /* MorphView.swift */; };
+		16F5A5BC25773DAC001920F2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5A5BB25773DAC001920F2 /* LoadingView.swift */; };
+		16F5A5C025774220001920F2 /* RetoBarraCargaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F5A5BF25774220001920F2 /* RetoBarraCargaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1623CEC4257815EF002466F8 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		1623CEC825781EC8002466F8 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		164669FA2576CE92005CDAE0 /* Animaciones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animaciones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		164669FD2576CE92005CDAE0 /* AnimacionesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimacionesApp.swift; sourceTree = "<group>"; };
 		164669FF2576CE92005CDAE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		16466A012576CE92005CDAE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16466A042576CE92005CDAE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		16466A062576CE92005CDAE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166B76AF25797BC300910FE8 /* DotLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotLoadingView.swift; sourceTree = "<group>"; };
+		16EFC523257EF7A500079D59 /* MorphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphView.swift; sourceTree = "<group>"; };
+		16F5A5BB25773DAC001920F2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		16F5A5BF25774220001920F2 /* RetoBarraCargaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetoBarraCargaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +66,15 @@
 			children = (
 				164669FD2576CE92005CDAE0 /* AnimacionesApp.swift */,
 				164669FF2576CE92005CDAE0 /* ContentView.swift */,
+				16F5A5BB25773DAC001920F2 /* LoadingView.swift */,
+				16F5A5BF25774220001920F2 /* RetoBarraCargaView.swift */,
+				1623CEC4257815EF002466F8 /* ProgressView.swift */,
+				1623CEC825781EC8002466F8 /* ProgressBarView.swift */,
+				166B76AF25797BC300910FE8 /* DotLoadingView.swift */,
 				16466A012576CE92005CDAE0 /* Assets.xcassets */,
 				16466A062576CE92005CDAE0 /* Info.plist */,
 				16466A032576CE92005CDAE0 /* Preview Content */,
+				16EFC523257EF7A500079D59 /* MorphView.swift */,
 			);
 			path = Animaciones;
 			sourceTree = "<group>";
@@ -139,7 +157,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				16466A002576CE92005CDAE0 /* ContentView.swift in Sources */,
+				166B76B025797BC300910FE8 /* DotLoadingView.swift in Sources */,
 				164669FE2576CE92005CDAE0 /* AnimacionesApp.swift in Sources */,
+				16EFC524257EF7A500079D59 /* MorphView.swift in Sources */,
+				1623CEC925781EC8002466F8 /* ProgressBarView.swift in Sources */,
+				1623CEC5257815EF002466F8 /* ProgressView.swift in Sources */,
+				16F5A5C025774220001920F2 /* RetoBarraCargaView.swift in Sources */,
+				16F5A5BC25773DAC001920F2 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
